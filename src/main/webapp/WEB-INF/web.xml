@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+  <display-name>Archetype Created Web Application</display-name>
+  <jsp-config>
+    <jsp-property-group>
+      <url-pattern>/html/*</url-pattern>
+      <!-- EL表达式是否忽略: true忽略 false不忽略 -->
+      <el-ignored>false</el-ignored>
+      <!-- JSP页面上的java代码是否有效: true: 无效 false:有效 -->
+      <scripting-invalid>false</scripting-invalid>
+      <!-- 在拦截到的所有jsp页面前面引入该页面 -->
+      <include-prelude>/taglib.jsp</include-prelude>
+    </jsp-property-group>
+  </jsp-config>
+</web-app>
